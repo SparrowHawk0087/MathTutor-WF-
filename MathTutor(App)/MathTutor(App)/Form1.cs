@@ -9,7 +9,7 @@ namespace MathTutor_App_
 
             var _trainer = new FormulaTrainer();
 
-            /// загрузка формул из файла
+            /// Р·Р°РіСЂСѓР·РєР° С„РѕСЂРјСѓР» РёР· С„Р°Р№Р»Р°
             _trainer.LoadFormulaFromFile(@"input-files/Formulas.txt");
 
 
