@@ -1,10 +1,18 @@
+
 namespace MathTutor_App_
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
-        {
+        public MainForm()
+        { 
             InitializeComponent();
+
+            var _trainer = new FormulaTrainer();
+
+            /// загрузка формул из файла
+            _trainer.LoadFormulaFromFile(@"input-files/Formulas.txt");
+
+
         }
     }
 }
